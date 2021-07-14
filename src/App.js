@@ -24,9 +24,9 @@ function App() {
     </div>
     <div className="col-md-6">
         <div className="row mt-5">
-          <div className="col-md-4 mt-5"><div className="c1"></div></div>
-          <div className="col-md-4 mt-5"><div className="c2"></div></div>
-          <div className="col-md-4 mt-5"><div className="c3"></div></div>
+          <div className="col-4 mt-5"><div className="c1"></div></div>
+          <div className="col-4 mt-5"><div className="c2"></div></div>
+          <div className="col-4 mt-5"><div className="c3"></div></div>
         </div>
     </div>
     </div>
