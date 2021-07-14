@@ -1,5 +1,11 @@
+*
+{
+  background-color:#FBFCFC;
+  opacity: 6;
+}
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -27,7 +33,64 @@
 .App-link {
   color: #61dafb;
 }
+.box
+{
+  border-right:2px solid #72059E;
+  background-color:white;
+}
 
+.subtn
+{
+  width: 100px;
+  height: 35px;
+  border:2px solid black;
+  background-color:#C967F1;
+  border-radius:5px;
+  color:white;
+}
+.subtn:focus
+{
+  background-color:#D4B1E2;
+  border:1px solid #72059E;
+}
+h2
+{
+  background-color:#B704FA;
+  color:white;
+  box-shadow: 1px 1px 2px #E74C3C;
+}
+.c1
+{
+  width: 250px;
+  height: 200px;
+  background-color:#C70CFA;
+  border-radius: 5px;
+  box-shadow:2px 2px 1px 3px #FF7F50;
+  animation:anim 2s .1s infinite alternate;
+}
+.c2
+{
+  width:250px;
+  height: 200px;
+  background-color:#FF7F50;
+  border-radius:5px;
+  box-shadow:2px 2px 1px 3px #48C9B0;
+  animation:anim 2s .3s infinite alternate;
+}
+.c3
+{
+  width:250px;
+  height: 200px;
+  background-color:#48C9B0;
+  border-radius:5px;
+  box-shadow:2px 2px 1px 3px #C70CFA;
+  animation:anim 2s .5s infinite alternate;
+}
+
+@keyframes anim{
+          from{transform: scaleY(0);}
+          to{transform: scaleX(.2);}
+        }
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
